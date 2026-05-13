@@ -1,11 +1,11 @@
 const BIODATA = {
-  nama: "Nama Kamu",
-  alamat: "Alamat Kamu",
-  lahir: "Bulan Tahun Lahir",
-  wa: "08xxxxxxxxxx",
-  ig: "@username_ig",
-  fb: "Nama Facebook",
-  email: "emailkamu@gmail.com",
+  nama: "GADING KHOIRUL MIKAL",
+  alamat: "Sumatera Selatan, Musi Rawas, Tugumulyo",
+  lahir: "08 Agustus",
+  wa: "0851-2495-8328",
+  ig: "@gadingkm",
+  fb: "Gading Khoirul M",
+  email: "---@gmail.com",
   foto: "assets/foto-saya.svg"
 };
 
