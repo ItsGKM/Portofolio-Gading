@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prestasi Ekstrakurikuler | Website Portofolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a class="logo" href="index.html">Porto<span>folio</span></a>
+  <button class="menu-toggle" aria-label="Buka menu">☰</button>
+  <nav class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="tentang.html">Tentang Saya</a>
+    <a href="prestasi.html">Prestasi</a>
+  </nav>
+</header>
+
+
+  <main class="container">
+    <section class="page-header">
+      <h1 class="page-title">Prestasi <span class="gradient-text">Ekstrakurikuler</span></h1>
+      <p class="page-subtitle">Kumpulan foto piagam, nama penghargaan, dan tahun penghargaan.</p>
+    </section>
+
+    <div class="back-row">
+      <a class="btn secondary" href="prestasi.html">← Kembali ke Menu Prestasi</a>
+    </div>
+
+    <section class="award-grid" id="awardGrid"></section>
+  </main>
+
+
+<div class="modal" id="modal" onclick="closeModal()">
+  <button class="close-modal" onclick="closeModal()">×</button>
+  <img id="modalImage" src="" alt="Preview Piagam">
+</div>
+
+
+<footer class="footer">
+  <p>© 2026 Portfolio Saya. Dibuat dengan HTML, CSS, dan JavaScript.</p>
+</footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+  <script>renderAwards("ekstrakurikuler");</script>
+</body>
+</html>
